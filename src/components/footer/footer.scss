@@ -1,0 +1,27 @@
+.footer {
+  box-sizing: border-box;
+  border: #a20606 1px double;
+  padding: 50px 25px;
+  height: 200px;
+  color: #a20606;
+  .footer__content {
+    display: flex;
+    justify-content: space-around;
+  }
+  // .footer__title {
+  //   padding-bottom: 15px;
+  // }
+  .footer__link {
+    display: flex;
+  }
+  .img {
+    border: 3px #a20606 double;
+    width: 140px;
+    height: 100px;
+  }
+
+  .footer__contact {
+    font-size: 20px;
+    text-align: center;
+  }
+}
