@@ -1,5 +1,5 @@
 import React from "react";
-import FastFoodBlock from "./FastFoodBlock";
+import FoodBlock from "./FoodBlock";
 import fastFoodDate from "./fastFoodDate";
 import "./fastFood.scss";
 const FastFood = () => {
@@ -7,7 +7,7 @@ const FastFood = () => {
     <div>
       <div className="food">
         {fastFoodDate.map((obj) => (
-          <FastFoodBlock
+          <FoodBlock
             key={obj.id}
             name={obj.name}
             img={obj.src}
