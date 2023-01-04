@@ -41,14 +41,14 @@ const PizzaBlock = ({ id, pizza, type, img, price, name }) => {
   return (
     <div className="food__content">
       <div className="food__img">
-        <img className="food-image" src={img} alt="vvv" />
+        <img src={img} alt="vvv" />
       </div>
       <div className="food__title">{pizza.name}</div>
 
       <div className="food__descriptions">{pizza.description}</div>
       <div className="pizza-selector">
         <ul>
-          <span className="title"> Тісто </span>
+          <span> Тісто </span>
           {type.map((t) => (
             <li
               key={t}
@@ -60,7 +60,7 @@ const PizzaBlock = ({ id, pizza, type, img, price, name }) => {
           ))}
         </ul>
         <ul>
-          <span className="title">основа</span>
+          <span>основа</span>
 
           {basis.map((b, index) => (
             <li
@@ -74,7 +74,7 @@ const PizzaBlock = ({ id, pizza, type, img, price, name }) => {
         </ul>
 
         <ul>
-          <span className="title">розмір</span>
+          <span>розмір</span>
 
           {sizes.map((size, index) => (
             <li
@@ -83,32 +83,17 @@ const PizzaBlock = ({ id, pizza, type, img, price, name }) => {
               className={activeSize === index ? "active" : " "}
             >
               {size}
-              {/* {size === "33cм" ? price[0] : price[1]} */}
             </li>
           ))}
         </ul>
       </div>
-      {/* <div className="countProduct"> */}
-      {/* <button className="counter" onClick={addPizza}>
-          {" "}
-          +{" "}
-        </button>
-        <span className="count"> {count} </span>
-        <button className="counter" onClick={removePizza}>
-          -{" "}
-        </button> */}
-      {/* <div style={{ color: "#a20606" }}>{sum}</div> */}
-      {/* грн
-      </div> */}
 
       <div className="button">
         <div className="totalPrice">
-          {sum} <span style={{ color: "black" }}>грн</span>
+          {sum} <span>грн</span>
         </div>
         <div>
-          <button onClick={onClickAdd} className="button-link">
-            замовити
-          </button>
+          <button onClick={onClickAdd}>замовити</button>
         </div>
       </div>
     </div>
