@@ -1,6 +1,8 @@
+import { v4 as uuidv4 } from "uuid";
+
 const lanchDate = [
   {
-    id: 1,
+    id: uuidv4(),
     src: "/lunchTime/ok.jpeg",
     name: "вареники з картоплею та грибами",
     description:
@@ -8,7 +10,7 @@ const lanchDate = [
     price: [80],
   },
   {
-    id: 2,
+    id: uuidv4(),
     src: "/lunchTime/ok.jpeg",
     name: "вареники з сиром",
     description:
@@ -16,7 +18,7 @@ const lanchDate = [
     price: [80],
   },
   {
-    id: 3,
+    id: uuidv4(),
     src: "/lunchTime/ok.jpeg",
     name: "пельмені",
     description: "салата, тунець, стручкова квасоля, часник, перепелині яйця ",

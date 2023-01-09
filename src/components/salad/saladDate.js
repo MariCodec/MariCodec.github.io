@@ -1,6 +1,7 @@
+import { v4 as uuidv4 } from "uuid";
 const saladDate = [
   {
-    id: 1,
+    id: uuidv4(),
     src: "/salad/salad.webp",
     name: "цезар",
     description:
@@ -8,7 +9,7 @@ const saladDate = [
     price: [80],
   },
   {
-    id: 2,
+    id: uuidv4(),
     src: "/grill/miaso.jpeg",
     name: "грецький",
     description:
@@ -16,14 +17,14 @@ const saladDate = [
     price: [80],
   },
   {
-    id: 3,
+    id: uuidv4(),
     src: "/grill/ok.jpeg",
     name: "ніцца",
     description: "салата, тунець, стручкова квасоля, часник, перепелині яйця ",
     price: [80],
   },
   {
-    id: 4,
+    id: uuidv4(),
     src: "/grill/miaso.jpeg",
     name: "весняний",
     description:
@@ -31,7 +32,7 @@ const saladDate = [
     price: [30],
   },
   {
-    id: 5,
+    id: uuidv4(),
     src: "/grill/ok.jpeg",
     name: "дністер",
     description: "капуста, цибуля, кріп, ковбаса,зелений горошок,майонез ",

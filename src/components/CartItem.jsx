@@ -26,10 +26,12 @@ const CartItem = ({ id, img, name, count, price, type, size, basis }) => {
           </div>
           <div>
             <div className="cart__date-name">{name}</div>
-            <div className="cart__date-descriptions">
-              тісто: {type} <br /> розмір: {size} <br />
-              основа: {basis}
-            </div>
+            {type && (
+              <div className="cart__date-descriptions">
+                тісто: {type} <br /> розмір: {size} <br />
+                основа: {basis}
+              </div>
+            )}
             {/* <div className="cart__date-descriptions"></div>
               <div className="cart__date-descriptions"></div> */}
           </div>

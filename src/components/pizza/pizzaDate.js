@@ -1,6 +1,8 @@
+import { v4 as uuidv4 } from "uuid";
+
 const pizzas = [
   {
-    id: 1,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "маргарита",
     description: "Соус, моцарелла, орегано",
@@ -9,7 +11,7 @@ const pizzas = [
     price: [85, 160],
   },
   {
-    id: 2,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "фунджі",
     description: " Соус, моцарелла, печериці, орегано",
@@ -19,7 +21,7 @@ const pizzas = [
   },
 
   {
-    id: 3,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "вегетеріанська",
     description:
@@ -30,7 +32,7 @@ const pizzas = [
   },
 
   {
-    id: 4,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "вегано",
     description:
@@ -41,7 +43,7 @@ const pizzas = [
   },
 
   {
-    id: 5,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "везувіо",
     description: "Соус, моцарелла, шинка, орегано",
@@ -51,7 +53,7 @@ const pizzas = [
   },
 
   {
-    id: 6,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "чотири сири",
     description:
@@ -62,7 +64,7 @@ const pizzas = [
   },
 
   {
-    id: 7,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "селянська",
     description: " Соус, моцарелла, печериці, шинка, бочок, цибуля, орегано",
@@ -72,7 +74,7 @@ const pizzas = [
   },
 
   {
-    id: 8,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "салямі",
     description: "Соус, моцарелла, печериці, салямі, орегано",
@@ -82,7 +84,7 @@ const pizzas = [
   },
 
   {
-    id: 9,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "мисливська",
     description:
@@ -93,7 +95,7 @@ const pizzas = [
   },
 
   {
-    id: 10,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "капрічоза",
     description: "Соус, моцарелла, печериці, шинка, орегано",
@@ -103,7 +105,7 @@ const pizzas = [
   },
 
   {
-    id: 11,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "фантазія",
     description: "Соус, моцарелла, 4 довільні складники, орегано",
@@ -113,7 +115,7 @@ const pizzas = [
   },
 
   {
-    id: 12,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "американа",
     description:
@@ -124,7 +126,7 @@ const pizzas = [
   },
 
   {
-    id: 13,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "палома",
     description:
@@ -135,7 +137,7 @@ const pizzas = [
   },
 
   {
-    id: 14,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "гавайська",
     description: "Соус, моцарелла, курка, ананас, орегано",
@@ -145,7 +147,7 @@ const pizzas = [
   },
 
   {
-    id: 15,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "козацька",
     description:
@@ -156,7 +158,7 @@ const pizzas = [
   },
 
   {
-    id: 16,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "мексикансбка",
     description:
@@ -167,7 +169,7 @@ const pizzas = [
   },
 
   {
-    id: 17,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "папероні",
     description: "Соус, моцарелла, пепероні, халапенйо, орегано",
@@ -177,7 +179,7 @@ const pizzas = [
   },
 
   {
-    id: 18,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "фіт",
     description: "Соус, моцарелла, прошуто, чері, рукола, орегано",
@@ -187,7 +189,7 @@ const pizzas = [
   },
 
   {
-    id: 19,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "грецька",
     description: "Соус, моцарелла, курка, фета, оливки, чері, орегано",
@@ -197,7 +199,7 @@ const pizzas = [
   },
 
   {
-    id: 20,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "карбонара",
     description:
@@ -208,7 +210,7 @@ const pizzas = [
   },
 
   {
-    id: 21,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "тонно",
     description: "Соус, моцарелла, тунець, оливки, помідор, цибуля, орегано",
@@ -217,7 +219,7 @@ const pizzas = [
     price: [152, 280],
   },
   {
-    id: 22,
+    id: uuidv4(),
     src: "/pizza/first.jpeg",
     name: "фірмова",
     description:

@@ -1,6 +1,20 @@
 import React from "react";
-
+import { useDispatch } from "react-redux";
+import { addItem } from "../../redux/cartSlice";
 const FoodBlock = ({ id, img, name, description, price }) => {
+  const dispatch = useDispatch();
+  const onClickAdd = () => {
+    const item = {
+      id,
+      img,
+      price,
+      name,
+    };
+
+    dispatch(addItem(item));
+    console.log(item);
+  };
+
   return (
     <div className="foodBlock">
       <div className="foodBlock__foodImage">
@@ -16,7 +30,7 @@ const FoodBlock = ({ id, img, name, description, price }) => {
           {price} <span>грн</span>
         </div>
         <div>
-          <button>замовити</button>
+          <button onClick={onClickAdd}>замовити</button>
         </div>
       </div>
     </div>

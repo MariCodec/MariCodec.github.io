@@ -1,34 +1,36 @@
+import { v4 as uuidv4 } from "uuid";
+
 const fastfoodDate = [
   {
-    id: 1,
+    id: uuidv4(),
     src: "/fastfood/GOOD.jpeg",
     name: "картопля фрі",
     description: "50г сирого продукту ",
     price: [80],
   },
   {
-    id: 2,
+    id: uuidv4(),
     src: "/fastfood/GOOD.jpeg",
     name: "картопля по-селянськи",
     description: "150г сирого продукту ",
     price: [80],
   },
   {
-    id: 3,
+    id: uuidv4(),
     src: "/fastfood/GOOD.jpeg",
     name: "нагетси",
     description: "5 шт ",
     price: [30],
   },
   {
-    id: 4,
+    id: uuidv4(),
     src: "/fastfood/GOOD.jpeg",
     name: "картопля фрі + нагетси",
     description: "150г сирого продукту картоплі фрі +5 штук нагетсів ",
     price: [60],
   },
   {
-    id: 5,
+    id: uuidv4(),
     src: "/fastfood/GOOD.jpeg",
     name: "курячі крильця",
     description: "100г сирого продукту ",
