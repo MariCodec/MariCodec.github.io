@@ -137,13 +137,14 @@ input {
   margin: 10px 0px;
   padding: 5px;
 }
-.oder-adress > input:first-child {
-  width: 380px;
+.oder-adress {
+  display: flex;
+  input {
+    width: 280px;
+    margin: 5px;
+  }
 }
-.oder-adress > input:last-child {
-  width: 150px;
-  float: right;
-}
+
 .oder-adress-home {
   text-align: center;
 }
@@ -168,4 +169,10 @@ input {
   background-color: rgb(212, 205, 205);
   text-align: center;
   font-size: 25px;
+}
+.errors {
+  font-size: 15px;
+  color: rgb(221, 6, 6);
+  font-family: serif;
+  font-weight: bold;
 }
