@@ -107,8 +107,8 @@ const Cart = () => {
         <div className="oder">
           <div className="description-title">Ваше замовлення</div>
 
-          {cartItem.map((item) => (
-            <CartItem key={item.id} {...item} />
+          {cartItem.map((item, i) => (
+            <CartItem key={i} {...item} />
           ))}
         </div>
       </div>
