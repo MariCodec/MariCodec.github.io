@@ -10,7 +10,7 @@ $br: 5px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 350px;
     height: 750px;
@@ -18,13 +18,14 @@ $br: 5px;
     text-align: center;
 
     img {
+      cursor: pointer;
       width: 300px;
       height: 300px;
       border: 1px $color_1 solid;
     }
     .food__title {
-      text-shadow: 2px 1px $color_1;
-      font-size: 25px;
+      // text-shadow: 2px 1px $color_1;
+      font-size: 30px;
     }
     .food-descriptions {
       font-size: 20px;
@@ -170,3 +171,82 @@ $br: 5px;
     }
   }
 }
+// .modalFood {
+//   padding: 20px;
+//   position: absolute;
+
+//   width: 500px;
+
+//   transform: translate(-50%);
+
+//   box-sizing: border-box;
+
+//   height: auto;
+//   border: 1px solid gray;
+//   background-color: white;
+//   // box-shadow: ;
+//   & p:first-child {
+//     color: #a20606;
+//     cursor: pointer;
+//     position: absolute;
+//     top: 10px;
+//     right: 10px;
+//   }
+//   & p {
+//     padding: 15px;
+//   }
+//   & h1 {
+//     padding: 10px;
+//     text-shadow: 2px 1px $color_1;
+//     font-size: 25px;
+//   }
+//   & button {
+//     margin: 5px;
+//     cursor: pointer;
+//     letter-spacing: 3px;
+//     width: 120px;
+//     height: 40px;
+//     border-radius: $br * 2;
+//     font-size: 20px;
+//     background-color: $color_1;
+//     border: none;
+//     color: aliceblue;
+//   }
+//   .modalFood__img > img {
+//     width: 350px;
+//     margin-top: 20px;
+//   }
+
+//   .pizza-selector {
+//     border: 1px solid lightgray;
+//     margin: 0 auto;
+//     width: 200px;
+//     background-color: rgb(240, 237, 237);
+//     border-radius: $br;
+
+//     ul {
+//       display: flex;
+//       padding: 2px;
+//       justify-content: space-between;
+//       align-items: center;
+//       span {
+//         font-size: 10px;
+//         margin: 0px 15px 5px 0px;
+//       }
+//       li {
+//         list-style: none;
+//         padding: 3px;
+//         cursor: pointer;
+//         font-weight: 600;
+//         font-size: 14px;
+
+//         &.active {
+//           background-color: aliceblue;
+//           box-shadow: 0px 2px 4px darkgray;
+//           border-radius: $br;
+//           cursor: auto;
+//         }
+//       }
+//     }
+//   }
+// }

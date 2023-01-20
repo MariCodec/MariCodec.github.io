@@ -36,9 +36,24 @@
       text-decoration: none;
       padding: 0 15px 0 0px;
 
-      &:hover {
-        padding-bottom: 10px;
-        border-bottom: 2px #a20606 double;
+      span {
+        position: relative;
+        text-decoration: none;
+        padding: 0 10px;
+      }
+      span:after {
+        content: "";
+        position: absolute;
+        background-color: #a20606;
+        // border-bottom: 2px #a20606 double;
+        height: 2px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+      }
+      span:hover:after {
+        width: 100%;
       }
     }
   }
@@ -54,19 +69,10 @@
       transform: rotate(-20deg);
     }
   }
-  // .cartItem {
-  //   width: 35px;
-  //   height: 30px;
-  //   text-align: center;
-  //   background-color: #a20606;
-  //   font-size: 30px;
-  //   top: 25px;
-  //   right: 80px;
-  //   color: white;
-  //   position: absolute;
+  .cartItem {
+    color: #a20606;
+  }
 
-  //   // position: fixed;
-  // }
   .cartButton {
     background-color: white;
     border: none;

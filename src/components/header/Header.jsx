@@ -22,22 +22,22 @@ const Header = () => {
         </Link>
         <nav>
           <Link className="header__nav-Link" to="/">
-            home
+            <span>home</span>
           </Link>
           <Link className="header__nav-Link" to="/pizza">
-            Pizza
+            <span>Pizza</span>
           </Link>
           <Link className="header__nav-Link" to="/FastFood">
-            Fast food
+            <span>Fast food</span>
           </Link>
           <Link className="header__nav-Link" to="/grill">
-            Grill
+            <span>Grill</span>
           </Link>
           <Link className="header__nav-Link" to="/salad">
-            Salad
+            <span>Salad</span>
           </Link>
           <Link className="header__nav-Link" to="/LunchTime">
-            lunch-time
+            <span>lunch-time</span>
           </Link>
         </nav>
 
@@ -46,10 +46,9 @@ const Header = () => {
           22:00
         </div>
         <Link className="cartButton" to={"/cart"}>
-          <span className="cartItem">{totalCount}</span>
+          {totalCount > 0 && <span className="cartItem">{totalCount} </span>}
           <BsFillCartCheckFill className="cart" />
-
-          <span>{totalPrice}</span>
+          {totalPrice > 0 && <span className="cartItem">{totalPrice} грн</span>}
         </Link>
       </header>
     </div>
