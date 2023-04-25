@@ -11,8 +11,7 @@ import Salad from "./components/salad/Salad";
 // import { decrement, increment } from "./redux/cartSlice";
 
 function App() {
-  // const count = useSelector((state) => state.counter.value);
-  // const dispatch = useDispatch();
+
 
   return (
     <div className="App">

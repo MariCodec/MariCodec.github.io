@@ -3,7 +3,6 @@ import "./slider.scss";
 
 import left from "./icon/back.png";
 import right from "./icon/next.png";
-// import { useState } from "react";
 
 const Slider = () => {
   const images = [
@@ -12,12 +11,6 @@ const Slider = () => {
     "./sliderImg/2img.jpeg",
     "./sliderImg/3img.jpeg",
   ];
-  // const [item, setItem] = useState([0]);
-  // console.log(item);
-
-  // const nextSlid = () => {
-  //   setItem(images[1]);
-  // };
 
   return (
     <div className="slider">
