@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&family=Lobster&family=Pacifico&family=Rubik+Moonrocks&family=Smooch&family=The+Nautigal&family=Yellowtail&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+
+  // font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+  //   "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.mainLayout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

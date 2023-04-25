@@ -1,0 +1,178 @@
+.cart {
+  flex: 1 1 auto;
+
+  .cart__header {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(65, 63, 63);
+    text-shadow: 2px 1px #a20606;
+    background-color: rgb(212, 205, 205);
+  }
+
+  // .cart__oder {
+  //   display: flex;
+  // }
+  .cart-oder {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+    font-size: 25px;
+  }
+  .cart__date {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #a20606 1px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    // font-size: 25px;
+    height: 120px;
+  }
+
+  .cart__date-item {
+    display: flex;
+    margin: 10px;
+    width: 300px;
+  }
+
+  .cart__date-descriptions {
+    font-size: 15px;
+    padding: 5px;
+    padding-top: 15px;
+    color: dimgray;
+  }
+  .cart__date-amount {
+    width: 150px;
+    text-align: center;
+  }
+  .cart__date-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .cart__date-price {
+    width: 150px;
+    text-align: center;
+  }
+  .button-count {
+    display: flex;
+  }
+  .close {
+    cursor: pointer;
+  }
+  .count {
+    margin-top: 15px;
+    width: 25px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    border: #a20606 1px solid;
+  }
+  .cart__date-price {
+    color: #a20606;
+  }
+  .button {
+    border: none;
+    color: #a20606;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 15px;
+  }
+  .close {
+    margin: 10px;
+    position: absolute;
+    color: #a20606;
+    right: 0;
+    top: 0;
+  }
+}
+
+.container-oder {
+  width: 600px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.oder__description {
+  /* padding-top: 10px; */
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+.description-title {
+  width: 600px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px #a20606 solid;
+  border-radius: 10px;
+  font-size: 30px;
+  color: rgb(65, 63, 63);
+  background-color: rgb(212, 205, 205);
+  padding: 5px 0px;
+  margin-bottom: 15px;
+}
+
+.number {
+  font-size: 25px;
+  text-shadow: 2px 1px #a20606;
+  padding: 15px 0px;
+}
+.oder__form {
+  text-align: center;
+}
+
+input {
+  width: 590px;
+  border-radius: 8px;
+  border-color: darkgrey;
+  height: 25px;
+  color: rgb(65, 63, 63);
+  margin: 10px 0px;
+  padding: 5px;
+}
+.oder-adress {
+  display: flex;
+  input {
+    width: 280px;
+    margin: 5px;
+  }
+}
+
+.oder-adress-home {
+  text-align: center;
+}
+.oder-adress-home > input {
+  width: 125px;
+  margin-right: 10px;
+}
+.oder-adress-home > input:last-child {
+  margin-right: 0px;
+}
+.submit-button {
+  font-size: 20px;
+  margin: 20px;
+  width: 300px;
+  height: 45px;
+  background-color: #a20606;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+.submit {
+  background-color: rgb(212, 205, 205);
+  text-align: center;
+  font-size: 25px;
+}
+.errors {
+  font-size: 15px;
+  color: rgb(221, 6, 6);
+  font-family: serif;
+  font-weight: bold;
+}

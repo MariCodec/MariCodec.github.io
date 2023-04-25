@@ -1,0 +1,52 @@
+.foodBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  margin: 30px 10px;
+  text-align: center;
+  img {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border: 1px #a20606 solid;
+  }
+  .foodBlock__name {
+    // text-shadow: 2px 1px #a20606;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .foodBlock__price {
+    line-height: 25px;
+    font-size: 20px;
+  }
+
+  .foodBlock__button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+
+    .foodBlock__price {
+      color: #a20606;
+      font-size: 25px;
+      margin: 10px 0px;
+      span {
+        color: black;
+      }
+    }
+    button {
+      cursor: pointer;
+      letter-spacing: 3px;
+      width: 180px;
+      height: 50px;
+      border-radius: 20px;
+      font-size: 20px;
+      background-color: #a20606;
+      border: none;
+      color: aliceblue;
+    }
+  }
+}
