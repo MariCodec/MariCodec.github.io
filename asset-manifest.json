@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/React-redax-pizza/static/css/main.deadced9.css",
-    "main.js": "/React-redax-pizza/static/js/main.b34c3efd.js",
-    "static/media/insta1.webp": "/React-redax-pizza/static/media/insta1.d0fcb121cce334238532.webp",
-    "static/media/insta.jpeg": "/React-redax-pizza/static/media/insta.43bb473b96a51ffff5c5.jpeg",
-    "static/media/brio.webp": "/React-redax-pizza/static/media/brio.5ca881fca77d5ed90f45.webp",
-    "static/media/vegetables.png": "/React-redax-pizza/static/media/vegetables.f517e8136e179940ee90.png",
-    "static/media/meat.png": "/React-redax-pizza/static/media/meat.853733fed119e5e8b0d1.png",
-    "static/media/cheese.png": "/React-redax-pizza/static/media/cheese.3dc64373eff5d862b206.png",
-    "static/media/logotipe.png": "/React-redax-pizza/static/media/logotipe.dc08ecdc2cc56b799841.png",
-    "index.html": "/React-redax-pizza/index.html",
-    "main.deadced9.css.map": "/React-redax-pizza/static/css/main.deadced9.css.map",
-    "main.b34c3efd.js.map": "/React-redax-pizza/static/js/main.b34c3efd.js.map"
+    "main.css": "/static/css/main.deadced9.css",
+    "main.js": "/static/js/main.f59478b1.js",
+    "static/media/insta1.webp": "/static/media/insta1.d0fcb121cce334238532.webp",
+    "static/media/insta.jpeg": "/static/media/insta.43bb473b96a51ffff5c5.jpeg",
+    "static/media/brio.webp": "/static/media/brio.5ca881fca77d5ed90f45.webp",
+    "static/media/vegetables.png": "/static/media/vegetables.f517e8136e179940ee90.png",
+    "static/media/meat.png": "/static/media/meat.853733fed119e5e8b0d1.png",
+    "static/media/cheese.png": "/static/media/cheese.3dc64373eff5d862b206.png",
+    "static/media/logotipe.png": "/static/media/logotipe.dc08ecdc2cc56b799841.png",
+    "index.html": "/index.html",
+    "main.deadced9.css.map": "/static/css/main.deadced9.css.map",
+    "main.f59478b1.js.map": "/static/js/main.f59478b1.js.map"
   },
   "entrypoints": [
     "static/css/main.deadced9.css",
-    "static/js/main.b34c3efd.js"
+    "static/js/main.f59478b1.js"
   ]
 }
