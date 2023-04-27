@@ -1,8 +1,9 @@
 import "./home.scss";
-import images from "./slider/dataSlider";
-import Slider from "./slider/Slider";
+
 import aboutImg from "./slider/about-img/brio.webp";
 import { useState, useEffect } from "react";
+import Slider from "./slider/Slider";
+
 const Home = () => {
   const [scroll, setScroll] = useState(0);
   const handleScroll = () => {
@@ -16,8 +17,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <Slider slides={images} />
-
+      <Slider />
       <main>
         <section className="about">
           <div
